@@ -2,14 +2,14 @@
 
 REST API sederhana untuk mengelola sistem peminjaman buku perpustakaan digital. Dibangun menggunakan Node.js, Express.js, dan PostgreSQL.
 
-## 🛠️ Tech Stack
+1. Tech Stack
 
 * **Runtime:** Node.js
 * **Framework:** Express.js
 * **Database:** PostgreSQL (via `pg` Pool)
 * **Dev Tools:** Nodemon, CORS, dotenv
 
-## ✨ Fitur
+2. Fitur
 
 * Mencatat transaksi peminjaman buku baru (POST)
 * Melihat seluruh riwayat peminjaman (GET All)
@@ -17,7 +17,7 @@ REST API sederhana untuk mengelola sistem peminjaman buku perpustakaan digital. 
 * Mengubah status peminjaman (contoh: dari "Dipinjam" menjadi "Dikembalikan") (PUT)
 * Menghapus data riwayat peminjaman (DELETE)
 
-## 📁 Struktur Folder Dasar
+3. Struktur Folder Dasar
 
 ```text
 tugas-backend/
